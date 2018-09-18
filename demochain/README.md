@@ -4,11 +4,15 @@
 . 效果展示
 
 # 实现步骤
-. 创建block
+## 1. 创建block
 > 新建工程demochain\
 > 创建 Block 文件\
 > 创建block结构体和相关函数
+### 遇到问题
+[字节切片与字符串疑惑](https://www.cnblogs.com/taoshihan/p/9156355.html)
 
-. 创建blockchain
+## 2. 创建blockchain
+> 创建blockchain文件\
+> 创建blockchain结构体和相关方法
 
-. 创建http server
+## 3. 创建http server
