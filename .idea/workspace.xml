@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6d99518-2303-4fa2-8113-aee9268a0935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demochain/core/Block.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demochain/core/Blockchain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/demochain.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/HashDemo.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段 入门/HashDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demochain/rpc/Server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demochain/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demochain/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/img/1537109984341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demochain/第一阶段 入门/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一阶段 入门/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段 入门/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demochain/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demochain/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demochain/core/Block.go" beforeDir="false" afterPath="$PROJECT_DIR$/demochain/core/Block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demochain/core/Blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/demochain/core/Blockchain.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,32 +19,34 @@
     <session id="1169881938">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="5" />
-          <entry key="md" value="6" />
+          <entry key="go" value="7" />
+          <entry key="md" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="5" />
-          <entry key="Markdown" value="6" />
+          <entry key="Go" value="7" />
+          <entry key="Markdown" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="917" />
-          <entry key="md" value="112" />
+          <entry key="go" value="1546" />
+          <entry key="md" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="917" />
-          <entry key="Markdown" value="112" />
+          <entry key="Go" value="1546" />
+          <entry key="Markdown" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -60,14 +55,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demochain/core/Block.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
-                <element signature="e#19#62#0" expanded="true" />
+                <element signature="e#14#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/demochain/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -87,11 +82,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demochain/rpc/Server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#13#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demochain/core/Blockchain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="-168">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demochain/cmd/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -115,9 +134,12 @@
         <option value="$PROJECT_DIR$/第一阶段 入门/README.md" />
         <option value="$PROJECT_DIR$/demochain/Block.go" />
         <option value="$PROJECT_DIR$/第一阶段 入门/HashDemo.go" />
-        <option value="$PROJECT_DIR$/demochain/README.md" />
         <option value="$PROJECT_DIR$/demochain/Blockchain.go" />
+        <option value="$PROJECT_DIR$/demochain/cmd/main.go" />
+        <option value="$PROJECT_DIR$/demochain/core/Block.go" />
         <option value="$PROJECT_DIR$/demochain/core/Blockchain.go" />
+        <option value="$PROJECT_DIR$/demochain/rpc/Server.go" />
+        <option value="$PROJECT_DIR$/demochain/README.md" />
       </list>
     </option>
   </component>
@@ -128,8 +150,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-84" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build Server.go">
     <configuration name="go build HashDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="blockchain" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -200,8 +224,35 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="blockchain" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demochain/rpc/Server.go" />
+      <package value="blockchain" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="blockchain" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demochain/cmd/main.go" />
+      <package value="blockchain" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build HashDemo.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build Server.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Server.go" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build HashDemo.go" />
       </list>
     </recent_temporary>
@@ -209,24 +260,24 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,11 +306,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demochain/core/Blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demochain/rpc/Server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#13#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demochain/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demochain/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -269,18 +347,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demochain/core/Block.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
-            <element signature="e#19#62#0" expanded="true" />
+            <element signature="e#14#65#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demochain/core/Blockchain.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>

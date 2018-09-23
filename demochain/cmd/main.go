@@ -1,11 +1,11 @@
-package cmd
+package main
 
 import "blockchain/demochain/core"
 
 func main()  {
 	bc := core.NewBlockchain()
-	bc.SendData("Send 1")
-	bc.SendData("Send 2")
-	bc.SendData("Send 3")
+	bc.SendData("Send 1 BTC to Jacky")
+	bc.SendData("Send 1 EOS to Jack")
+	bc.Print()
 }
 
